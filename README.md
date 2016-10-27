@@ -8,6 +8,15 @@ The existing app is functioning, but we see many areas for improvement.  Our ide
 - Automatic recalculation of new route if you miss your bus
 - Preferred trip type: Shortest trip, Soonest Departure, Soonest Arrival
 
+##Relevant Links
+* [TRANSIT-HUB](http://thub.isis.vanderbilt.edu) - Info and goal of current app
+* [Transit](https://transitapp.com) - Smart Transit app similar concept
+* [Nashville MTA Real-Time](http://ride.nashvillemta.org) - Nashville MTA's real-time bus tracker and trip planner
+
+## Coming Soon
+* Timeline for project development
+* Role distribution
+
 ## Team members
 
 + [Richard Arledge](richard.b.arledge@Vanderbilt.Edu)
