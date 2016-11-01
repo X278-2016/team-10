@@ -17,6 +17,28 @@ The existing app is functioning, but we see many areas for improvement.  Our ide
 * Timeline for project development
 * Role distribution
 
+## Project Timeline
+
+*This timeline is dependent on the arrival of the source code. Assuming the source code arrives by Nov 3, this is the tentative schedule.*
+
+* Nov 3 - Become familiar with source code, identify and find areas to extend and improve
+
+* Nov 8 -
+
+* Nov 10 -
+
+* Nov 15 -
+
+* Nov 17 -
+
+* Nov 29 -
+
+* Dec 1 -
+
+* Dec 6 -
+
+* Dec 8 - Final Presentation
+
 ## Team members
 
 + [Richard Arledge](richard.b.arledge@Vanderbilt.Edu)
