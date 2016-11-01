@@ -322,7 +322,7 @@ enum ViewStatus {
 
 -(void)getGasPriceUpdate {
     
-    NSURL *URL = [NSURL URLWithString:@"http://www.fueleconomy.gov/ws/rest/fuelprices"];
+    NSURL *URL = [NSURL URLWithString: fuelPriceURL];
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
     
     AFHTTPRequestOperation *downloadRequest = [[AFHTTPRequestOperation alloc] initWithRequest:request];
@@ -634,9 +634,7 @@ enum ViewStatus {
     
     nearbyBuses = [[NSMutableDictionary alloc] initWithCapacity:5];
     
-    NSURL *URL;
-    URL=[NSURL URLWithString:@"https://129.59.105.175/static/Data/Feed/tripupdates.pb"];
-    URL = [NSURL URLWithString:@"http://transitdata.nashvillemta.org/TMGTFSRealTimeWebService/tripupdate/tripupdates.pb"];
+    NSURL *URL = [NSURL URLWithString: tripUpdatesURL];
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
     //    NSString *fileName = [URL lastPathComponent];
     
@@ -1259,7 +1257,7 @@ enum ViewStatus {
 
 -(void)dataCollection:(NSMutableDictionary *)map_data {
 
-    NSString *submitURL = [@"https://c3stem.isis.vanderbilt.edu" stringByAppendingString:@"/saveSearch"];
+    NSString *submitURL = saveSearchURL;
     
     AFHTTPRequestOperationManager *manager = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:[NSURL URLWithString:submitURL]];
     manager.securityPolicy.allowInvalidCertificates = YES;

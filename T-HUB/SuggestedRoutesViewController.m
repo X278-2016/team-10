@@ -75,7 +75,7 @@
 }
 
 -(void)getTripUpdates {
-    NSURL *URL=[NSURL URLWithString:@"http://transitdata.nashvillemta.org/TMGTFSRealTimeWebService/tripupdate/tripupdates.pb"];
+    NSURL *URL=[NSURL URLWithString: tripUpdatesURL];
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
     AFHTTPRequestOperation *downloadRequest = [[AFHTTPRequestOperation alloc] initWithRequest:request];
     downloadRequest.securityPolicy.allowInvalidCertificates = YES;
@@ -456,7 +456,7 @@
 }
 
 -(void)dataCollection:(NSMutableDictionary *)map_data {
-    NSString *submitURL = [@"https://c3stem.isis.vanderbilt.edu" stringByAppendingString:@"/saveItinerary"];
+    NSString *submitURL = saveItineraryURL;
     
     AFHTTPRequestOperationManager *manager = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:[NSURL URLWithString:submitURL]];
     manager.securityPolicy.allowInvalidCertificates = YES;
@@ -485,7 +485,7 @@
 }
 
 -(void)dataCollection_actualTrip:(NSMutableDictionary *)map_data {
-    NSString *submitURL = [@"https://c3stem.isis.vanderbilt.edu" stringByAppendingString:@"/saveActualTrip"];
+    NSString *submitURL = saveActualTripURL;
     
     AFHTTPRequestOperationManager *manager = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:[NSURL URLWithString:submitURL]];
     manager.securityPolicy.allowInvalidCertificates = YES;

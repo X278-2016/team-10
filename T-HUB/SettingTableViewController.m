@@ -218,13 +218,13 @@
 */
 
 - (IBAction)didTapForMoreInfo:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://thub.isis.vanderbilt.edu/"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString: thubProjectURL]];
 }
 - (IBAction)didTapVideo:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://thub.isis.vanderbilt.edu/video"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString: thubVideoURL]];
 }
 
 - (IBAction)didTapSCOPE:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://scope.isis.vanderbilt.edu/"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString: scopeLabURL]];
 }
 @end

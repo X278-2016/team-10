@@ -260,7 +260,7 @@ alpha:1.0]
     //    }
     
     
-    NSURL *URL = [NSURL URLWithString:@"http://transitdata.nashvillemta.org/TMGTFSRealTimeWebService/alert/alerts.pb"];
+    NSURL *URL = [NSURL URLWithString: alertsURL];
     
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
     //    NSString *fileName = [URL lastPathComponent];

@@ -289,17 +289,7 @@ enum ViewStatus {
 }
 
 -(void)getAlertUpdates {
-    NSURL *URL=[NSURL URLWithString:@"https://129.59.105.175/static/Data/Feed/tripupdates.pb"];
-    
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    if ([defaults objectForKey:@"thubTimeBool"]) {
-        if ([[defaults objectForKey:@"thubTimeBool"] boolValue])
-            URL=[NSURL URLWithString:@"https://129.59.105.175/static/Data/Feed/Augmented/tripupdates.pb"];
-        else
-            URL=[NSURL URLWithString:@"https://129.59.105.175/static/Data/Feed/tripupdates.pb"];
-    }
-    
-    URL=[NSURL URLWithString:@"http://transitdata.nashvillemta.org/TMGTFSRealTimeWebService/alert/alerts.pb"];
+    NSURL *URL= [NSURL URLWithString: alertsURL];
     
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
     //    NSString *fileName = [URL lastPathComponent];
@@ -505,18 +495,7 @@ enum ViewStatus {
 -(void)getTripUpdate {
     
     
-    NSURL *URL=[NSURL URLWithString:@"https://129.59.105.175/static/Data/Feed/tripupdates.pb"];
-    
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    if ([defaults objectForKey:@"thubTimeBool"]) {
-        if ([[defaults objectForKey:@"thubTimeBool"] boolValue])
-            URL=[NSURL URLWithString:@"https://129.59.105.175/static/Data/Feed/Augmented/tripupdates.pb"];
-        else
-            URL=[NSURL URLWithString:@"https://129.59.105.175/static/Data/Feed/tripupdates.pb"];
-    }
-    
-    //    URL=[NSURL URLWithString:@"https://129.59.105.175/static/Data/Feed/Augmented/tripupdates.pb"];
-    URL=[NSURL URLWithString:@"http://transitdata.nashvillemta.org/TMGTFSRealTimeWebService/tripupdate/tripupdates.pb"];
+    NSURL *URL= [NSURL URLWithString: tripUpdatesURL];
     
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
     
@@ -607,7 +586,7 @@ enum ViewStatus {
     
     //    nearbyBuses = [[NSMutableDictionary alloc] initWithCapacity:5];
     
-    NSURL *URL = [NSURL URLWithString:@"http://transitdata.nashvillemta.org/TMGTFSRealTimeWebService/vehicle/vehiclepositions.pb"];
+    NSURL *URL = [NSURL URLWithString: vehiclePositionsURL];
     
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
     //    NSString *fileName = [URL lastPathComponent];
@@ -1161,7 +1140,7 @@ enum ViewStatus {
         searchID = @"[searchID]";
     [dic_actualTrip setValue:searchID forKey:@"searchID"];
     
-    NSString *submitURL = [@"https://c3stem.isis.vanderbilt.edu" stringByAppendingString:@"/saveActualTrip"];
+    NSString *submitURL = saveActualTripURL;
     
     AFHTTPRequestOperationManager *manager = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:[NSURL URLWithString:submitURL]];
     manager.securityPolicy.allowInvalidCertificates = YES;

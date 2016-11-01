@@ -10,6 +10,7 @@
 #import <CoreData/CoreData.h>
 #import "DBManager.h"
 //#import "LocationTracker.h"
+#include "constants.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

@@ -11,6 +11,7 @@
 #import <ProtocolBuffers/ProtocolBuffers.h>
 #import "GtfsRealtime.pb.h"
 #import "ServiceAlertTableViewCell.h"
+#include "constants.h"
 
 
 @interface ServiceAlertsViewController () {
@@ -46,9 +47,7 @@
     
     alerts_array = [[NSMutableArray alloc] initWithCapacity:5];
     
-    NSURL *URL = [NSURL URLWithString:@"http://ride.nashvillemta.org/TMGTFSRealTimeWebService/tripupdate/tripupdates.pb"];
-    URL=[NSURL URLWithString:@"https://129.59.105.175/static/Data/Feed/alerts.pb"];
-    URL = [NSURL URLWithString:@"http://transitdata.nashvillemta.org/TMGTFSRealTimeWebService/alert/alerts.pb"];
+    NSURL *URL = [NSURL URLWithString: alertsURL];
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
     //    NSString *fileName = [URL lastPathComponent];
     

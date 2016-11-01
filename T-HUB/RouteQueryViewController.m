@@ -361,7 +361,7 @@ numberOfRowsInComponent:(NSInteger)component
 }
 
 -(void)getTripUpdates {
-    NSURL *URL=[NSURL URLWithString:@"http://transitdata.nashvillemta.org/TMGTFSRealTimeWebService/tripupdate/tripupdates.pb"];
+    NSURL *URL=[NSURL URLWithString: tripUpdatesURL];
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
     AFHTTPRequestOperation *downloadRequest = [[AFHTTPRequestOperation alloc] initWithRequest:request];
     downloadRequest.securityPolicy.allowInvalidCertificates = YES;
@@ -452,7 +452,7 @@ numberOfRowsInComponent:(NSInteger)component
 }
 
 - (void)getBusLocationUpdates{
-    NSURL *URL = [NSURL URLWithString:@"http://transitdata.nashvillemta.org/TMGTFSRealTimeWebService/vehicle/vehiclepositions.pb"];
+    NSURL *URL = [NSURL URLWithString: vehiclePositionsURL];
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
     AFHTTPRequestOperation *downloadRequest = [[AFHTTPRequestOperation alloc] initWithRequest:request];
     downloadRequest.securityPolicy.allowInvalidCertificates = YES;

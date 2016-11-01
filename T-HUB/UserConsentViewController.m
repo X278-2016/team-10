@@ -9,6 +9,7 @@
 #import "UserConsentViewController.h"
 #import "TabBarController.h"
 #import "AppData.h"
+#include "constants.h"
 
 @interface UserConsentViewController ()
 
@@ -69,6 +70,6 @@
 }
 
 - (IBAction)didTap_learnMore:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://gctc.isis.vanderbilt.edu/"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString: thubProjectURL]];
 }
 @end

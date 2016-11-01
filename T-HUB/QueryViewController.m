@@ -166,7 +166,7 @@ numberOfRowsInComponent:(NSInteger)component
 
 -(void)getTripUpdate {
     
-    NSURL *URL=[NSURL URLWithString:@"http://transitdata.nashvillemta.org/TMGTFSRealTimeWebService/tripupdate/tripupdates.pb"];
+    NSURL *URL=[NSURL URLWithString: tripUpdatesURL];
     
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
     
@@ -386,7 +386,7 @@ numberOfRowsInComponent:(NSInteger)component
 - (void)showBusesForRoute{
     array_busMarkers = [[NSMutableArray alloc] init];
     
-    NSURL *URL = [NSURL URLWithString:@"http://transitdata.nashvillemta.org/TMGTFSRealTimeWebService/vehicle/vehiclepositions.pb"];
+    NSURL *URL = [NSURL URLWithString: vehiclePositionsURL];
     
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
     //    NSString *fileName = [URL lastPathComponent];

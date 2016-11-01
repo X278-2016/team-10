@@ -153,6 +153,7 @@
 		2A63EE5B1C0F8DCC00E9E0E8 /* RouteQueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteQueryViewController.h; sourceTree = "<group>"; };
 		2A63EE5C1C0F8DCC00E9E0E8 /* RouteQueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteQueryViewController.m; sourceTree = "<group>"; };
 		2A76FA9B1BD8351A00A95231 /* thub_launch13@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thub_launch13@2x.jpg"; sourceTree = "<group>"; };
+		2A83A9401DC9153400AEF926 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
 		2A8684641B6BB63500D8F400 /* SummaryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryTableViewController.h; sourceTree = "<group>"; };
 		2A8684651B6BB63500D8F400 /* SummaryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryTableViewController.m; sourceTree = "<group>"; };
 		2A884BEB1C161CC0001555C0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
@@ -593,6 +594,7 @@
 				2ADE17751B83830A00485C2C /* ServiceAlertTableViewCell.m */,
 				2A884BEB1C161CC0001555C0 /* Reachability.h */,
 				2A884BEC1C161CC0001555C0 /* Reachability.m */,
+				2A83A9401DC9153400AEF926 /* constants.h */,
 			);
 			name = Components;
 			sourceTree = "<group>";
