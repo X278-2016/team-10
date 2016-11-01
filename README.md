@@ -4,6 +4,7 @@ The app is written in Objective-C and has been released on [iOS App Store](https
 
 ## Key Components
 
+* Constants ([Constants](https://github.com/visor-vu/thub-ios-app/blob/master/T-HUB/constants.h)): This file defines all the URLs.
 * User Consent View ([UserConsentViewController](https://github.com/visor-vu/thub-ios-app/blob/master/T-HUB/UserConsentViewController.h)): User needs to accept the user consent to use the app
 * Tab Bar View ([TabBarController](https://github.com/visor-vu/thub-ios-app/blob/master/T-HUB/TabBarController.h)):  This controller defines the tab bar items
 * Trip Planner ([TripPlanner2ViewController](https://github.com/visor-vu/thub-ios-app/blob/master/T-HUB/TripPlanner2ViewController.h)): Users use this view to plan a trip to their destinations.
