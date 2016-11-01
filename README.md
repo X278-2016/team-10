@@ -23,19 +23,19 @@ The existing app is functioning, but we see many areas for improvement.  Our ide
 
 * Nov 3 - Become familiar with source code, identify and find areas to extend and improve
 
-* Nov 8 -
+* Nov 8 - Sprint 1 - Preferred trip type
 
-* Nov 10 -
+* Nov 10 - Meet with Prof. White, finalize trip type work
 
-* Nov 15 -
+* Nov 15 - Sprint 2 - Revamp calendar
 
-* Nov 17 -
+* Nov 17 - Meet with Prof. White, finalize calendar work
 
-* Nov 29 -
+* Nov 29 - Sprint 3 - Revamp real-time feature
 
-* Dec 1 -
+* Dec 1 - Meet with Prof. White, finalize real-time feature
 
-* Dec 6 -
+* Dec 6 - Sprint 4 - finalize features and demo
 
 * Dec 8 - Final Presentation
 
