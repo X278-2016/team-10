@@ -6,6 +6,11 @@
 //  Copyright (c) 2015 Fangzhou Sun. All rights reserved.
 //
 
+/*
+ This is the user consent view controller
+ User needs to accept the user consent to use the app
+*/
+
 #import <UIKit/UIKit.h>
 
 @interface UserConsentViewController : UIViewController

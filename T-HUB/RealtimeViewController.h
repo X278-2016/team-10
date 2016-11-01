@@ -6,6 +6,11 @@
 //  Copyright (c) 2015 Fangzhou Sun. All rights reserved.
 //
 
+/*
+ This is the navigation view controller
+ Step-by-step navigation will be provided by this view
+ */
+
 #import <UIKit/UIKit.h>
 #import <Canvas.h>
 #import <GoogleMaps/GoogleMaps.h>

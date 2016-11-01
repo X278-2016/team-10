@@ -66,7 +66,7 @@
     
 //    [self checkIfBackgroundAppRefreshIsEnabled];
     
-    // Init Database
+    // Initial database
     self.dbManager = [[DBManager alloc] initWithDatabaseFilename:@"Nashville_GTFS.sqlite3"];
     
     

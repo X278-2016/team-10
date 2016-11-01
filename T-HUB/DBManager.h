@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 Fangzhou Sun. All rights reserved.
 //
 
+/*
+ This is the helper class for managing the sqlite database
+ */
+
 #import <Foundation/Foundation.h>
 
 @interface DBManager : NSObject

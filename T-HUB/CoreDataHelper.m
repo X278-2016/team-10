@@ -6,6 +6,10 @@
 //  Copyright (c) 2014 Training. All rights reserved.
 //
 
+/*
+ This is the helper class for managing the core data
+ */
+
 #import "CoreDataHelper.h"
 
 @implementation CoreDataHelper

@@ -6,6 +6,11 @@
 //  Copyright © 2015 Fangzhou Sun. All rights reserved.
 //
 
+/*
+ This is the route query view controller
+ This view provides the real-time bus location and arrival time at bus stops to the users.
+ */
+
 #import "RouteQueryViewController.h"
 #import "AppDelegate.h"
 #import "ColorConstants.h"

@@ -6,6 +6,11 @@
 //  Copyright (c) 2015 Fangzhou Sun. All rights reserved.
 //
 
+/*
+ This is the route details view controller
+ Users can check the suggested route details here
+ */
+
 #import <UIKit/UIKit.h>
 #import <Canvas.h>
 #import <GoogleMaps/GoogleMaps.h>

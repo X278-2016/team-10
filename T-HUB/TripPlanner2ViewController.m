@@ -6,6 +6,11 @@
 //  Copyright (c) 2015 Fangzhou Sun. All rights reserved.
 //
 
+/*
+ This is the trip planner view controller
+ User uses this view to search transit trips between a start point and an end point
+ */
+
 #import "TripPlanner2ViewController.h"
 #import "ColorConstants.h"
 #import "StatusView.h"

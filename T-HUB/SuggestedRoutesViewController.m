@@ -6,6 +6,11 @@
 //  Copyright (c) 2015 Fangzhou Sun. All rights reserved.
 //
 
+/*
+ This is the suggested route view controller
+ This view provides the suggested transit routes to users after they tap the "Plan Your Trip" button in trip planner.
+ */
+
 #import "SuggestedRoutesViewController.h"
 #import "RouteTableViewCell.h"
 #import "ColorConstants.h"

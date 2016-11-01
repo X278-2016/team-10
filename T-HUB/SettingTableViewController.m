@@ -6,6 +6,11 @@
 //  Copyright (c) 2015 Fangzhou Sun. All rights reserved.
 //
 
+/*
+ This is the setting view controller.
+ Users use this view to change the default settings in the app.
+ */
+
 #import "SettingTableViewController.h"
 #import "AppDelegate.h"
 

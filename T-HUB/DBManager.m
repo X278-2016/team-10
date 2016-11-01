@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 Fangzhou Sun. All rights reserved.
 //
 
+/*
+ This is the helper class for managing the sqlite database
+ */
+
 #import "DBManager.h"
 #import <sqlite3.h>
 #import <CoreLocation/CoreLocation.h>

@@ -6,6 +6,11 @@
 //  Copyright (c) 2015 Fangzhou Sun. All rights reserved.
 //
 
+/*
+ This is the calendar view controller
+ Users can use this view to manage their scheduled trips
+*/
+
 #import <UIKit/UIKit.h>
 #import <Canvas.h>
 

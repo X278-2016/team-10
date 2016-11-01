@@ -6,6 +6,12 @@
 //  Copyright (c) 2015 Fangzhou Sun. All rights reserved.
 //
 
+/*
+ This is the summary view controller.
+ Users can check the summary data here.
+ */
+
+
 #import "SummaryTableViewController.h"
 
 @interface SummaryTableViewController ()
