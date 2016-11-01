@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C384F116-0975-4963-8DE7-669E7F79E29E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>T-HUB</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1CBB03C660857E6495D9335B5F624F6E9660A744</key>
+		<string>ssh://gctc.isis.vanderbilt.edu/diffusion/APP/application.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>T-HUB/T-HUB.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1CBB03C660857E6495D9335B5F624F6E9660A744</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://gctc.isis.vanderbilt.edu/diffusion/APP/application.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1CBB03C660857E6495D9335B5F624F6E9660A744</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1CBB03C660857E6495D9335B5F624F6E9660A744</string>
+			<key>IDESourceControlWCCName</key>
+			<string>application</string>
+		</dict>
+	</array>
+</dict>
+</plist>
