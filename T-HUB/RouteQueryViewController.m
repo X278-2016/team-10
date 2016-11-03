@@ -433,12 +433,12 @@ numberOfRowsInComponent:(NSInteger)component
                 [nSMDictionary_trip setObject:nSMArray_stops forKey:@"stops"];
                 [nSMDictionary_trip setObject:tripHeadsign forKey:@"headsign"];
                 
-                NSLog(@"437:%@", nSMDictionary_trip);
+//                NSLog(@"437:%@", nSMDictionary_trip);
                 
                 // Save to map
                 [nSMDictionary_tripID_stops setObject:nSMDictionary_trip forKey:tripId];
             }
-            NSLog(@"-> nSMDictionary_tripID_stops %@", nSMDictionary_tripID_stops);
+//            NSLog(@"-> nSMDictionary_tripID_stops %@", nSMDictionary_tripID_stops);
         }
         allRouteId_sorted = [NSMutableArray arrayWithArray: [[[NSSet setWithArray:allRouteId_sorted] allObjects] sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:@"self" ascending:YES]]] ];
         [self.uIPickerView_routes reloadAllComponents];
@@ -569,7 +569,7 @@ numberOfRowsInComponent:(NSInteger)component
     float y3 = 3;
     
     
-    NSLog(@"427: %@, %ld, %ld", tripID, (long)maxInvalid, (long)num_stops);
+//    NSLog(@"427: %@, %ld, %ld", tripID, (long)maxInvalid, (long)num_stops);
     
     cell.contentView.backgroundColor = [UIColor clearColor];
     if ([map_selectedStop objectForKey:@"stop_sequence"])
@@ -709,7 +709,7 @@ numberOfRowsInComponent:(NSInteger)component
                 nSTimeInterval = [[map_stop objectForKey:@"time"] integerValue];
             }
         }
-        NSLog(@"518: %ld, %ld", (long)index_selectedStop, (long)num_stops);
+//        NSLog(@"518: %ld, %ld", (long)index_selectedStop, (long)num_stops);
         
         if (index_selectedStop>=0 && num_stops>0 && index_selectedStop<=num_stops) {
             float x_selectedStop = (contentView_width-padding_left-padding_right)*index_selectedStop/num_stops;
@@ -745,7 +745,7 @@ numberOfRowsInComponent:(NSInteger)component
             if (returnDic!=nil) {
                 [nSMDictionary_tripIDStopID_staticDic setObject:returnDic forKey:[tripID stringByAppendingString:[map_selectedStop objectForKey:@"stop_id"]]];
                 index_selectedStop = [[returnDic objectForKey:@"stop_sequence"] integerValue];
-                NSLog(@" - 518: %ld, %ld", (long)index_selectedStop, (long)num_stops);
+//                NSLog(@" - 518: %ld, %ld", (long)index_selectedStop, (long)num_stops);
                 float x_selectedStop = (contentView_width-padding_left-padding_right)*index_selectedStop/num_stops;
                 selectedStopLabel = [[UILabel alloc] initWithFrame:CGRectMake(padding_left+x_selectedStop, y3, label_width, label_height)];
                 selectedStopLabel.tag = 11;
@@ -1159,7 +1159,7 @@ numberOfRowsInComponent:(NSInteger)component
     }
     
     // select the nearest bus stop
-    NSLog(@"1137:%@", map_selectedStop);
+//    NSLog(@"1137:%@", map_selectedStop);
     if (nearest_busStop!=nil) {
         if (map_selectedStop==nil)
             [self mapView:self.mapView didTapMarker:nearest_busStop];

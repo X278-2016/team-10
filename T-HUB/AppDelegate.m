@@ -67,7 +67,7 @@
 //    [self checkIfBackgroundAppRefreshIsEnabled];
     
     // Initial database
-    self.dbManager = [[DBManager alloc] initWithDatabaseFilename:@"Nashville_GTFS.sqlite3"];
+    self.dbManager = [[DBManager alloc] initWithDatabaseFilename:@"Nashville_GTFS_1_5_8.sqlite3"];
     
     
     self.reschedule_route_dictionary = nil;
