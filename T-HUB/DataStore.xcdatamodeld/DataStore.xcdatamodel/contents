@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Xcode 7.0">
+    <entity name="AppData" representedClassName="AppData" syncable="YES">
+        <attribute name="userConsent" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RealtimeTripUpdates" representedClassName="RealtimeTripUpdates" syncable="YES">
+        <attribute name="routeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tripDetails" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="tripHeadsign" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tripID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ScheduledTrip" representedClassName="ScheduledTrip" syncable="YES">
+        <attribute name="arrivalLat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="arrivalLng" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="arrivalText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="arrivalTime" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="checkpoint" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="departureLat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="departureLng" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="departureText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="departureTime" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="fromAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="googleTripDic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isRecurring" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="scheduledDepartureTime" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="searchID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SearchHistory" representedClassName="SearchHistory" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AppData" positionX="-54" positionY="81" width="128" height="60"/>
+        <element name="RealtimeTripUpdates" positionX="-54" positionY="81" width="128" height="105"/>
+        <element name="ScheduledTrip" positionX="-63" positionY="-18" width="128" height="285"/>
+        <element name="SearchHistory" positionX="-54" positionY="99" width="128" height="75"/>
+    </elements>
+</model>

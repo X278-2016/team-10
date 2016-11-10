@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3.23&sensor=false"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        var area = function(diameter) {
+            var radius = diameter/2,
+            area = Math.PI * radius * radius;
+            return Math.round(area*100)/100;
+        };
+
+        var areab = function(diameter) {
+            var radius = diameter/2,
+            area = Math.PI * radius * radius;
+            return Math.round(area*100)/100;
+        };
+
+        var params;
+
+        var myRouter = {
+            directionsHelper_: null,
+
+            calcRoute: function() {
+                var dt = parseFloat(params.departureTime)*1000;
+                var at = parseFloat(params.arrivalTime)*1000;
+                
+                var request = {
+                    origin: new google.maps.LatLng(params.departureLat, params.departureLng),
+                    destination: new google.maps.LatLng(params.arrivalLat, params.arrivalLng),
+                    // origin: new google.maps.LatLng(42.360260, -71.066813),
+                    // destination: new google.maps.LatLng(42.327843, -71.079602),
+                    // origin: params.departureAddress,
+                    // destination: params.arrivalAddress,
+                    
+                    provideRouteAlternatives: true,
+                    //durationInTraffic: true,
+                    travelMode: google.maps.TravelMode.TRANSIT,
+                    transitOptions: {
+                        departureTime: new Date(dt),
+                        arrivalTime: new Date(at)
+                    }
+                };
+
+                this.directionsHelper_.route(request, function(response, status) {
+                    if (status == google.maps.DirectionsStatus.OK) {
+                        console.log(response);
+                        window.location = 'result://dummy.com/'+JSON.stringify(response);
+                        return;
+                    }
+                    console.log('Directions Status: ' + status);
+                });
+            },
+
+            init: function() {
+
+                this.directionsHelper_ = new google.maps.DirectionsService();
+
+                this.calcRoute();
+            }
+        };
+
+        var start = function(diameter) {
+            params = JSON.parse(diameter);
+
+            myRouter.init();
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
