@@ -36,19 +36,19 @@ The existing app is functioning, but we see many areas for improvement.  Our ide
 *Source Code Arrived Nov 8. Timeline has been updated accordingly.*
 
 
-* Nov 10 - Meet with Professor White, discuss plan form this point forward
+* Thu, Nov 10 - Meet with Professor White, discuss plan form this point forward
 
-* Nov 15 - Code read through, understand app flow, be prepared with questions for Fangzhou Sun on Tuesday
+* Tue, Nov 15 - Code read through, understand app flow, be prepared with questions for Fangzhou Sun on Tuesday
 
-* Nov 17 - Meet with Prof. White
+* Thu, Nov 17 - Meet with Prof. White
 
-* Nov 29 - Sprint
+* Tue, Nov 29 - Sprint
 
-* Dec 1 - Meet with Prof. White
+* Thu, Dec 1 - Meet with Prof. White
 
-* Dec 6 - Sprint 3: Finalize features and demo
+* Tue, Dec 6 - Sprint 3: Finalize features and demo
 
-* Dec 8 - Final Presentation
+* Thu, Dec 8 - Final Presentation
 
 ## Team members
 
