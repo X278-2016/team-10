@@ -30,30 +30,23 @@ The existing app is functioning, but we see many areas for improvement.  Our ide
 * [Transit](https://transitapp.com) - Smart Transit app similar concept
 * [Nashville MTA Real-Time](http://ride.nashvillemta.org) - Nashville MTA's real-time bus tracker and trip planner
 
-## Coming Soon
-
-* Timeline for project development
-* Role distribution
 
 ## Project Timeline
 
-*This timeline is dependent on the arrival of the source code. Assuming the source code arrives by Nov 3, this is the tentative schedule.*
+*Source Code Arrived Nov 8. Timeline has been updated accordingly.*
 
-* ~~Nov 3 - Become familiar with source code, identify and find areas to extend and improve~~
 
-* Nov 8 - ~~Sprint 1 - Preferred trip type~~ Received source code - Goal to become familiar with, make functional in individual systems, and prepare to make improvements   
+* Nov 10 - Meet with Professor White, discuss plan form this point forward
 
-* Nov 10 - Meet with Prof. White, finalize trip type work
+* Nov 15 - Code read through, understand app flow, be prepared with questions for Fangzhou Sun on Tuesday
 
-* Nov 15 - Sprint 2 - Revamp calendar
+* Nov 17 - Meet with Prof. White
 
-* Nov 17 - Meet with Prof. White, finalize calendar work
+* Nov 29 - Sprint
 
-* Nov 29 - Sprint 3 - Revamp real-time feature
+* Dec 1 - Meet with Prof. White
 
-* Dec 1 - Meet with Prof. White, finalize real-time feature
-
-* Dec 6 - Sprint 4 - finalize features and demo
+* Dec 6 - Sprint 3: Finalize features and demo
 
 * Dec 8 - Final Presentation
 
