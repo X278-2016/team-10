@@ -19,6 +19,7 @@ The original app is written in Objective-C by [fzsun316](mailto:fzsun316@gmail.c
 
 The existing app is functioning, but we see many areas for improvement.  Our ideas for improvement as of 10/27 are as follows:
 - Creating a real-time feature that shows multiple buses near you at a time
+
 - Revamping the calendar feature's user interface to only show you the days when you have a trip planned, makes for less scrolling through and easy access to trips
 - Share feature that allows your friends to see the trip you've planned if they would like to join
 - Automatic recalculation of new route if you miss your bus
@@ -42,11 +43,11 @@ The existing app is functioning, but we see many areas for improvement.  Our ide
 
 * Nov 17 - Meet with Prof. White
 
-* Nov 29 - Sprint
+* Nov 29 - Sprint: Implementation of nearby buses and share or updated calendar features
 
 * Dec 1 - Meet with Prof. White
 
-* Dec 6 - Sprint 3: Finalize features and demo
+* Dec 6 - Sprint 2
 
 * Dec 8 - Final Presentation
 
