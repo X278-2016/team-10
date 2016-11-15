@@ -43,19 +43,15 @@ The existing app is functioning, but we see many areas for improvement.  Our ide
 
 * Thu, Nov 17 - Meet with Prof. White
 
-<<<<<<< HEAD
 * Nov 29 - Sprint: Implementation of nearby buses and share or updated calendar features
-=======
+
 * Tue, Nov 29 - Sprint
->>>>>>> 3c4e9e50f1b73225eaa9c57ec66e24b447455db6
 
 * Thu, Dec 1 - Meet with Prof. White
 
-<<<<<<< HEAD
 * Dec 6 - Sprint 2
-=======
+
 * Tue, Dec 6 - Sprint 3: Finalize features and demo
->>>>>>> 3c4e9e50f1b73225eaa9c57ec66e24b447455db6
 
 * Thu, Dec 8 - Final Presentation
 
