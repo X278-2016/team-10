@@ -503,6 +503,33 @@ alpha:1.0]
     }
 }
 
+// share button
+-(void)shareRoute:(UIButton *)sender{
+  CGPoint buttonPosition = [sender convertPoint:CGPointZero toView:self.uitableview_agenda];
+  NSIndexPath *indexPath = [self.uitableview_agenda indexPathForRowAtPoint:buttonPosition];
+  if (indexPath != nil)
+  {
+    ScheduledTrip *scheduledTrip = [scheduleArray objectAtIndex:indexPath.section];
+    NSLog(@"share route %@", scheduledTrip);
+    NSString *textToShare = [NSString stringWithFormat:@"Look at my route from %@ to %@!",scheduledTrip.fromAddress, scheduledTrip.toAddress];
+    
+    NSString *routeDataText = [NSString stringWithFormat:@"%@",scheduledTrip];
+    
+    NSArray *objectsToShare = @[textToShare, routeDataText];
+    
+    UIActivityViewController *controller = [[UIActivityViewController alloc] initWithActivityItems:objectsToShare applicationActivities:nil];
+    
+    NSArray *excludedActivities = @[UIActivityTypePostToWeibo,
+                                    UIActivityTypePrint, UIActivityTypeCopyToPasteboard,
+                                    UIActivityTypeAssignToContact, UIActivityTypeSaveToCameraRoll,
+                                    UIActivityTypeAddToReadingList, UIActivityTypePostToFlickr,
+                                    UIActivityTypePostToVimeo, UIActivityTypePostToTencentWeibo];
+    controller.excludedActivityTypes = excludedActivities;
+    
+    [self presentViewController:controller animated:YES completion:nil];
+  }
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     ScheduledTrip *scheduledTrip = [scheduleArray objectAtIndex:indexPath.section];
@@ -568,7 +595,10 @@ alpha:1.0]
         [cell.uibtn_scheduleRoute addTarget:self action:@selector(scheduleRoute:) forControlEvents:UIControlEventTouchUpInside];
         [cell.uibtn_setRecurring addTarget:self action:@selector(setRecurring:) forControlEvents:UIControlEventTouchUpInside];
         [cell.uIButton_serviceAlert addTarget:self action:@selector(showServiceAlertView:) forControlEvents:UIControlEventTouchUpInside];
-        
+        // share button
+        [cell.uibtn_shareRoute addTarget:self action:@selector(shareRoute:) forControlEvents:UIControlEventTouchUpInside];
+
+      
         // Hold Instruction
         NSDate *startDate = [parsedDic objectForKey:@"date_start_time"];
         NSDate *endDate = [parsedDic objectForKey:@"date_end_time"];

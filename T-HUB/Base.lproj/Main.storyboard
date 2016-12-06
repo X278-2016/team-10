@@ -138,7 +138,7 @@
                                                         </constraints>
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u12-ep-28Q">
-                                                        <rect key="frame" x="8" y="5" width="176" height="30"/>
+                                                        <rect key="frame" x="8" y="5" width="175.5" height="30"/>
                                                         <color key="backgroundColor" red="0.95857423543930054" green="0.95857423543930054" blue="0.95857423543930054" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="Vfy-S3-pzp"/>
@@ -158,7 +158,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79Y-Wd-QJN">
-                                                        <rect key="frame" x="192" y="5" width="175" height="30"/>
+                                                        <rect key="frame" x="191.5" y="5" width="175.5" height="30"/>
                                                         <color key="backgroundColor" red="0.95857423543930054" green="0.95857423543930054" blue="0.95857423543930054" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="RwI-hX-F0T"/>
@@ -1119,7 +1119,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WALKING" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N6m-td-HHy">
-                                                <rect key="frame" x="100" y="7" width="84" height="21"/>
+                                                <rect key="frame" x="100" y="7" width="83.5" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="m3q-b0-xbf"/>
                                                 </constraints>
@@ -1128,7 +1128,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CALORIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ld-SP-0q1">
-                                                <rect key="frame" x="192" y="7" width="83" height="21"/>
+                                                <rect key="frame" x="191.5" y="7" width="84" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="cTO-X0-XsH"/>
                                                 </constraints>
@@ -1137,7 +1137,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IMPACT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tog-dg-Chs">
-                                                <rect key="frame" x="283" y="7" width="84" height="21"/>
+                                                <rect key="frame" x="283.5" y="7" width="83.5" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="cJm-NO-ai6"/>
                                                 </constraints>
@@ -1155,7 +1155,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12 mins" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWq-x1-gEg">
-                                                <rect key="frame" x="100" y="28" width="84" height="21"/>
+                                                <rect key="frame" x="100" y="28" width="83.5" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="1v4-jT-eos"/>
                                                 </constraints>
@@ -1164,7 +1164,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 pts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cU-5f-fXa">
-                                                <rect key="frame" x="192" y="28" width="83" height="21"/>
+                                                <rect key="frame" x="191.5" y="28" width="84" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="nn0-1I-Mju"/>
                                                 </constraints>
@@ -1173,7 +1173,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9 pts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yjP-aC-VQN">
-                                                <rect key="frame" x="283" y="28" width="84" height="21"/>
+                                                <rect key="frame" x="283.5" y="28" width="83.5" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="xNC-jd-KVb"/>
                                                 </constraints>
@@ -1687,7 +1687,7 @@
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgx-4N-n1N">
                                                             <rect key="frame" x="250" y="156" width="109" height="30"/>
-                                                            <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="backgroundColor" red="0.27450980392156865" green="0.63137254901960782" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="30" id="zhT-gd-t19"/>
                                                             </constraints>
@@ -1739,6 +1739,7 @@
                                                     <outlet property="uILabel_titleForScheduledRoute" destination="I8l-1I-4hl" id="eJH-au-Kkn"/>
                                                     <outlet property="uibtn_scheduleRoute" destination="vl6-EV-Iq1" id="qG3-u7-Z2f"/>
                                                     <outlet property="uibtn_setRecurring" destination="W0Y-FW-Pfu" id="2XM-az-hRQ"/>
+                                                    <outlet property="uibtn_shareRoute" destination="cgx-4N-n1N" id="CPx-of-Gv3"/>
                                                 </connections>
                                             </tableViewCell>
                                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CalendarTableViewCell2" rowHeight="112" id="Lr4-rq-Iw8" customClass="CalendarTableViewCell">
@@ -1959,7 +1960,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUb-Bf-bEl">
-                                                <rect key="frame" x="13" y="34" width="45" height="32"/>
+                                                <rect key="frame" x="13" y="34" width="44.5" height="32"/>
                                                 <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="Vdf-jy-7sj"/>
@@ -1971,7 +1972,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWU-cc-eeF">
-                                                <rect key="frame" x="59" y="34" width="44" height="32"/>
+                                                <rect key="frame" x="58.5" y="34" width="45" height="32"/>
                                                 <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="IU3-Wk-n4S"/>
@@ -1983,7 +1984,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CjD-wg-cyy">
-                                                <rect key="frame" x="104" y="34" width="45" height="32"/>
+                                                <rect key="frame" x="104.5" y="34" width="44.5" height="32"/>
                                                 <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="QUm-w2-is9"/>
@@ -2007,7 +2008,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gL-jX-ApF">
-                                                <rect key="frame" x="196" y="34" width="45" height="32"/>
+                                                <rect key="frame" x="196" y="34" width="44.5" height="32"/>
                                                 <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="7gM-Pu-4j3"/>
@@ -2019,7 +2020,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sgo-tx-Otr">
-                                                <rect key="frame" x="242" y="34" width="44" height="32"/>
+                                                <rect key="frame" x="241.5" y="34" width="45" height="32"/>
                                                 <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="FN4-9v-p0U"/>
@@ -2031,7 +2032,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8D-bf-cBP">
-                                                <rect key="frame" x="287" y="34" width="45" height="32"/>
+                                                <rect key="frame" x="287.5" y="34" width="44.5" height="32"/>
                                                 <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="M1o-uj-Tjc"/>
@@ -2816,7 +2817,7 @@ Instructions</string>
                                         </connections>
                                     </pickerView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMY-sh-Wg3">
-                                        <rect key="frame" x="8" y="262" width="140" height="30"/>
+                                        <rect key="frame" x="8" y="262" width="139.5" height="30"/>
                                         <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="Ono-EF-I09"/>
@@ -2835,7 +2836,7 @@ Instructions</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uv1-7o-5go">
-                                        <rect key="frame" x="156" y="262" width="139" height="30"/>
+                                        <rect key="frame" x="155.5" y="262" width="139.5" height="30"/>
                                         <color key="backgroundColor" red="0.2784313725" green="0.61960784310000006" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="fXr-J4-0HL"/>

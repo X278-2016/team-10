@@ -23,6 +23,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *uibtn_scheduleRoute;
 @property (strong, nonatomic) IBOutlet UIButton *uibtn_setRecurring;
 @property (weak, nonatomic) IBOutlet UILabel *uILabel_titleForScheduledRoute;
-
+// share button
+@property (strong, nonatomic) IBOutlet UIButton *uibtn_shareRoute;
 
 @end
