@@ -511,11 +511,12 @@ alpha:1.0]
   {
     ScheduledTrip *scheduledTrip = [scheduleArray objectAtIndex:indexPath.section];
     NSLog(@"share route %@", scheduledTrip);
-    NSString *textToShare = [NSString stringWithFormat:@"Look at my route from %@ to %@!",scheduledTrip.fromAddress, scheduledTrip.toAddress];
+    NSURL *appstoreurl = [NSURL URLWithString:@"https://itunes.apple.com/us/app/t-hub/id1022519348"];
+    NSString *textToShare = [NSString stringWithFormat:@"Meet me at %@ at %@ to ride with me to %@! Make your own route on the T-HUB app %@", scheduledTrip.fromAddress, scheduledTrip.departureTime, scheduledTrip.toAddress, appstoreurl];
     
-    NSString *routeDataText = [NSString stringWithFormat:@"%@",scheduledTrip];
+//    NSString *routeDataText = [NSString stringWithFormat:@"%@",scheduledTrip];
     
-    NSArray *objectsToShare = @[textToShare, routeDataText];
+    NSArray *objectsToShare = @[textToShare, appstoreurl];
     
     UIActivityViewController *controller = [[UIActivityViewController alloc] initWithActivityItems:objectsToShare applicationActivities:nil];
     
