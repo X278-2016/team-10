@@ -15,14 +15,6 @@ The original app is written in Objective-C by [fzsun316](mailto:fzsun316@gmail.c
 * Summary View ([SummaryTableViewController](https://github.com/X278-2016/team-10/blob/master/T-HUB/SummaryTableViewController.h)): Users can check the summary data here
 * Setting View ([SettingTableViewController](https://github.com/X278-2016/team-10/blob/master/T-HUB/SettingViewController.h)): Users can change the default settings here
 
-## Improvement Ideas
-
-The existing app is functioning, but we see many areas for improvement.  Our ideas for improvement as of 10/27 are as follows:
-- Creating a real-time feature that shows multiple buses near you at a time
-- Revamping the calendar feature's user interface to only show you the days when you have a trip planned, makes for less scrolling through and easy access to trips
-- Share feature that allows your friends to see the trip you've planned if they would like to join
-- Automatic recalculation of new route if you miss your bus
-- Preferred trip type: Shortest trip, Soonest Departure, Soonest Arrival
 
 ##Relevant Links
 
@@ -35,24 +27,19 @@ The existing app is functioning, but we see many areas for improvement.  Our ide
 
 *Source Code Arrived Nov 8. Timeline has been updated accordingly.*
 
+* Tuesday, Dec 6 - Final Presentation
 
-* Thu, Nov 10 - Meet with Professor White, discuss plan form this point forward
+## Improved Features
 
-* Tue, Nov 15 - Code read through, understand app flow, be prepared with questions for Fangzhou Sun on Tuesday
+- Revamping the calendar feature's user interface to only show you the days when you have a trip planned, makes for less scrolling through and easy access to trips
+- Share feature that allows your friends to see the trip you've planned if they would like to join
 
-* Thu, Nov 17 - Meet with Prof. White
+## Ideas for Future Improvement
 
-* Nov 29 - Sprint: Implementation of nearby buses and share or updated calendar features
-
-* Tue, Nov 29 - Sprint
-
-* Thu, Dec 1 - Meet with Prof. White
-
-* Dec 6 - Sprint 2
-
-* Tue, Dec 6 - Sprint 3: Finalize features and demo
-
-* Thu, Dec 8 - Final Presentation
+The existing app is functioning, but we still see areas for improvement.  
+- Creating a real-time feature that shows multiple buses near you at a time
+- Automatic recalculation of new route if you miss your bus
+- Preferred trip type: Shortest trip, Soonest Departure, Soonest Arrival
 
 ## Team members
 
